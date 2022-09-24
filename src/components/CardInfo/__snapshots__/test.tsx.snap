@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CardMenu /> should render the component 1`] = `
+.c0 {
+  background-color: #FAFAFA;
+  padding: 1.6rem;
+  box-shadow: 0 8px 8px rgba(0,0,0,0.2);
+  border-radius: 0.4rem;
+  border: 1px solid #ebebeb;
+  width: 100%;
+  -webkit-transition: box-shadow 0.2s;
+  transition: box-shadow 0.2s;
+}
+
+.c0 a {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #0D0D0D;
+}
+
+.c0:hover {
+  box-shadow: 0 4px 12px #56da9e;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100%;
+}
+
+.c1 svg {
+  width: 2.4rem;
+  height: 2.4rem;
+  color: #24A66B;
+}
+
+.c1 strong {
+  margin-top: 1rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.c1 p {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.6rem;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+<div
+  aria-label="Iron Man card info"
+  class="c0"
+>
+  <a
+    href="/"
+  >
+    <div
+      class="c1"
+    >
+      <header
+        class="c2"
+      >
+        <p>
+          Iron Man
+        </p>
+        <svg
+          aria-label="Iron Man icon"
+          fill="currentColor"
+          height="20"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 24 24"
+          width="20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M19 2H6c-1.206 0-3 .799-3 3v14c0 2.201 1.794 3 3 3h15v-2H6.012C5.55 19.988 5 19.806 5 19s.55-.988 1.012-1H21V4c0-1.103-.897-2-2-2zm0 14H5V5c0-.806.55-.988 1-1h13v12z"
+          />
+        </svg>
+      </header>
+      <strong>
+        I'm Iron Man
+      </strong>
+    </div>
+  </a>
+</div>
+`;
