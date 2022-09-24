@@ -65,7 +65,7 @@
     "@testing-library/user-event": "^13.5.0",
     "@types/jest": "^27.5.0",
     "@types/node": "^18.7.16",
-    "@types/react": "^17.0.43",
+    "@types/react": "^18.0.21",
     "@types/react-slick": "^0.23.10",
     "@types/react-table": "^7.7.12",
     "@types/styled-components": "^5.1.26",
