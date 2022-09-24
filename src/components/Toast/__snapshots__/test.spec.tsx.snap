@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Toast /> should render the Toast component 1`] = `
+.c0 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 35rem;
+  z-index: 50;
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+
+.c1 {
+  font-size: 1.6rem;
+  color: #0D0D0D;
+  font-weight: 600;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.4rem;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-shadow: 0 8px 8px rgba(0,0,0,0.2);
+  background-color: #24A66B;
+}
+
+.c1 > svg {
+  margin-right: 0.8rem;
+}
+
+.c2 {
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 0.8rem;
+  margin-right: 0.8rem;
+}
+
+.c2 svg {
+  color: #FAFAFA;
+  -webkit-transition: color 0.4s;
+  transition: color 0.4s;
+}
+
+.c2 svg:hover {
+  color: #0D0D0D;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+    style="opacity: 0; transform: translateY(-50px) scale(0.3) translateZ(0);"
+    type="success"
+  >
+    <svg
+      fill="none"
+      height="20"
+      stroke="currentColor"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="2"
+      viewBox="0 0 24 24"
+      width="20"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M22 11.08V12a10 10 0 1 1-5.93-9.14"
+      />
+      <polyline
+        points="22 4 12 14.01 9 11.01"
+      />
+    </svg>
+    <p>
+      Toast
+    </p>
+    <button
+      class="c2"
+      type="button"
+    >
+      <svg
+        fill="currentColor"
+        height="17"
+        stroke="currentColor"
+        stroke-width="0"
+        viewBox="0 0 24 24"
+        width="17"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g>
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+          <path
+            d="M12 10.586l4.95-4.95 1.414 1.414-4.95 4.95 4.95 4.95-1.414 1.414-4.95-4.95-4.95 4.95-1.414-1.414 4.95-4.95-4.95-4.95L7.05 5.636z"
+          />
+        </g>
+      </svg>
+    </button>
+  </div>
+</div>
+`;
