@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Input /> should render the Input component 1`] = `
+.c1 {
+  font-size: 1.4rem;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  color: #0D0D0D;
+}
+
+.c1 span {
+  display: none;
+}
+
+.c0 {
+  width: 100%;
+}
+
+.c2 {
+  background: #FAFAFA;
+  color: #91AAB4;
+  border-radius: 0.4rem;
+  padding: 0 2rem;
+  width: 100%;
+  height: 56px;
+  font-size: 2.4rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 2px solid #3E606F;
+  cursor: default;
+}
+
+.c2:focus-within {
+  outline: 3px solid #aaecce;
+}
+
+.c2 input {
+  color: #0D0D0D;
+  background: transparent;
+  outline: none;
+  height: 100%;
+  line-height: 1.2;
+  font-size: 1.6rem;
+  border: 0;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c2 input::-webkit-outer-spin-button,
+.c2 input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.c2 input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.c2 input:-webkit-autofill,
+.c2 input:-webkit-autofill:hover,
+.c2 input:-webkit-autofill:focus {
+  -webkit-text-fill-color: #3E606F;
+  -webkit-box-shadow: #282f3a26 inset;
+  box-shadow: #282f3a26;
+  -webkit-transition: background-color 5000s ease-in-out 0s;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.c2 input::-webkit-input-placeholder {
+  color: #91AAB4;
+}
+
+.c2 input::-moz-placeholder {
+  color: #91AAB4;
+}
+
+.c2 input:-ms-input-placeholder {
+  color: #91AAB4;
+}
+
+.c2 input::placeholder {
+  color: #91AAB4;
+}
+
+.c2 svg {
+  margin-right: 1.6rem;
+  color: #3E606F;
+}
+
+.c2:hover {
+  border-color: #0D0D0D;
+}
+
+<div
+  class="c0"
+>
+  <label
+    class="c1"
+    for=""
+  >
+     
+    <span>
+      *
+    </span>
+  </label>
+  <div
+    class="c2"
+    data-testid="icon-container"
+  >
+    <input
+      aria-label="name-input"
+      data-testid="input-element"
+      name="Name"
+      type="text"
+    />
+  </div>
+</div>
+`;
