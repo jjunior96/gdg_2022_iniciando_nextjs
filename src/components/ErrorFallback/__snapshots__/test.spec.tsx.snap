@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ErrorFallback /> should render component by default 1`] = `
+.c4 {
+  width: 100%;
+  color: #FAFAFA;
+  background-color: #24A66B;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 0.4rem;
+  border: 0;
+  padding: 0 1.6rem;
+  font-weight: 600;
+  font-size: 1.6rem;
+  -webkit-transition: background-color 0.3s,box-shadow 0.2s;
+  transition: background-color 0.3s,box-shadow 0.2s;
+  outline: none;
+  height: 5.6rem;
+  font-size: 1.6rem;
+}
+
+.c4:focus {
+  outline: 3px solid #aaecce;
+}
+
+.c4:hover {
+  background-color: #29bb79;
+  box-shadow: 0 8px 8px rgba(0,0,0,0.2);
+}
+
+.c4 > svg {
+  margin-right: 1rem;
+}
+
+.c0 {
+  width: 100%;
+}
+
+.c1 {
+  width: 100%;
+  max-width: 46rem;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c2 {
+  font-size: 3.2rem;
+  font-weight: 600;
+  margin-bottom: 1.6rem;
+}
+
+.c3 {
+  font-size: 2.4rem;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 2.4rem;
+}
+
+<div
+  class="c0"
+  role="alert"
+>
+  <div
+    class="c1"
+  >
+    <h2
+      class="c2"
+    >
+      Something went wrong
+    </h2>
+    <p
+      class="c3"
+    >
+      something wrong
+    </p>
+    <button
+      class="c4"
+      color="green"
+    >
+      Try again
+    </button>
+  </div>
+</div>
+`;

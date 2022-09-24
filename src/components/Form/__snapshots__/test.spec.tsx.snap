@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Form /> should render the Form 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  width: 100%;
+  max-width: 96rem;
+  min-width: 96rem;
+}
+
+.c0 label {
+  margin-top: 1.6rem;
+}
+
+.c0 button[type='submit'] {
+  margin: 2.4rem 0;
+}
+
+@media (max-width:960px) {
+  .c0 {
+    min-width: 100%;
+  }
+}
+
+@media (max-width:500px) {
+  .c0 {
+    max-width: 100%;
+    min-width: 100%;
+  }
+}
+
+<form
+  class=""
+>
+  <div
+    class="c0"
+  >
+    <input
+      aria-label="username"
+      placeholder="Username"
+    />
+  </div>
+</form>
+`;

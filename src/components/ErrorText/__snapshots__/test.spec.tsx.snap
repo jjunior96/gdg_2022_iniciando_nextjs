@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ErrorText /> should render correctly 1`] = `
+.c0 {
+  height: 2rem;
+  margin: 0;
+  padding: 0;
+  margin-top: 0.8rem;
+  margin-bottom: calc(0.8rem / 4);
+}
+
+.c0 svg {
+  margin: 0;
+  padding: 0;
+}
+
+.c0 p {
+  font-size: 1.6rem;
+  color: #E63737;
+}
+
+<div
+  class=""
+>
+  <div
+    class="c0"
+  >
+    <p>
+      Error Text
+    </p>
+  </div>
+</div>
+`;
