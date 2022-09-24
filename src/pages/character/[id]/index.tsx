@@ -4,7 +4,7 @@ import api from 'services/api';
 
 import PageHeader from 'components/PageHeader';
 
-import Character, { CharacterProps } from 'templates/Hero';
+import Character, { CharacterProps } from 'templates/Character';
 
 type CharacterDataProps = {
   data: CharacterProps;
