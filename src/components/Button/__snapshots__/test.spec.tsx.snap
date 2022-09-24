@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> should render a button default 1`] = `
+.c0 {
+  width: 100%;
+  color: #FAFAFA;
+  background-color: #24A66B;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 0.4rem;
+  border: 0;
+  padding: 0 1.6rem;
+  font-weight: 600;
+  font-size: 1.6rem;
+  -webkit-transition: background-color 0.3s,box-shadow 0.2s;
+  transition: background-color 0.3s,box-shadow 0.2s;
+  outline: none;
+  height: 5.6rem;
+  font-size: 1.6rem;
+}
+
+.c0:focus {
+  outline: 3px solid #aaecce;
+}
+
+.c0:hover {
+  background-color: #29bb79;
+  box-shadow: 0 8px 8px rgba(0,0,0,0.2);
+}
+
+.c0 > svg {
+  margin-right: 1rem;
+}
+
+<div>
+  <button
+    class="c0"
+    color="green"
+  >
+    Enter
+  </button>
+</div>
+`;
