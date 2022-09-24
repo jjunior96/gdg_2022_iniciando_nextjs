@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LabelInput /> should render the label default 1`] = `
+.c0 {
+  font-size: 1.4rem;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  color: #0D0D0D;
+}
+
+.c0 span {
+  display: none;
+}
+
+<form>
+  <label
+    class="c0"
+    for="label-test"
+  >
+    label
+     
+    <span>
+      *
+    </span>
+  </label>
+  <input
+    id="label-test"
+    type="text"
+  />
+</form>
+`;
