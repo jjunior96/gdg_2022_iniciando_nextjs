@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Spinner /> should render the Spinner component 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 4rem;
+  z-index: 50;
+}
+
+.c1 {
+  width: 100%;
+  -webkit-animation: eoUyJr 1s linear infinite;
+  animation: eoUyJr 1s linear infinite;
+}
+
+<div
+  class="c0"
+  data-testid="spinner"
+>
+  <svg
+    class="c1"
+    color="#24A66B"
+    data-testid="spinner-icon"
+    fill="currentColor"
+    height="1em"
+    stroke="currentColor"
+    stroke-width="0"
+    style="color: rgb(36, 166, 107);"
+    viewBox="0 0 16 16"
+    width="1em"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      clip-rule="evenodd"
+      d="M13.917 7A6.002 6.002 0 0 0 2.083 7H1.071a7.002 7.002 0 0 1 13.858 0h-1.012z"
+      fill-rule="evenodd"
+    />
+  </svg>
+</div>
+`;
